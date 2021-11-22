@@ -23,7 +23,11 @@ class Combo {
 }
 
 class CalculadoraFesta {
-  constructor(numPessoas, bebSaudavel, decDiferenciada) {}
+  constructor(numPessoas, bebSaudavel, decDiferenciada) {
+    this.numPessoas = numPessoas
+    this.bebSaudavel = bebSaudavel
+    this.decDiferenciada = decDiferenciada
+  }
 
   calcularValorComidas() {}
 
